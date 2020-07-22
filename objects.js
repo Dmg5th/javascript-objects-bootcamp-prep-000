@@ -3,7 +3,7 @@ let playlist = {
   PhoebeBridgers: "Don't Know"
 };
 
-function updatePlaylist(list, name, song){
+function updatePlaylist(name, song){
   playlist[name] = song;
   return playlist
 }
