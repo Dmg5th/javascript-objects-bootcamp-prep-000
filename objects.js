@@ -1,12 +1,20 @@
-var playlist = {Beatles: "Here Comes The Sun"}
-function updatePlaylist(playlist, artistName, songTitle){
-  playlist[artistName] = songTitle 
-  return playlist;
-}
-function removeFromPlaylist(playlist, artistName){
-  delete playlist[artistName] 
+let playlist = {RedHotChiliPeppers: "Breaking the Girl"};
+
+function updatePlaylist(playlist, artistName, song){
+ playlist[artistName] = song;
   return playlist
 }
+
+function removeFromPlaylist(playlist, artistName){
+  delete playlist[artistName];
+  return playlist
+}
+
+
+
+
+
+
 
 
 
