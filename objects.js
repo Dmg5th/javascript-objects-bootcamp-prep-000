@@ -1,15 +1,10 @@
-let playlist = {RedHotChiliPeppers: "Breaking the Girl"};
+let playlist = {
+  Beatles: "Here Comes the Sun",
+  PhoebeBridgers: "Don't Know"
+};
 
-function updatePlaylist(playlist, artistName, song){
- playlist[artistName] = song;
-  return playlist
-}
 
-function removeFromPlaylist(playlist, artistName){
-  delete playlist[artistName];
-  return playlist
-}
-
+  
 
 
 
